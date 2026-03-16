@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     PORT: int = 8000
     
     # MongoDB Configuration
-    MONGODB_URL: str = "mongodb+srv://aditya17103:LTYQ5GBMhuV3V4Kn@template.foxz9eg.mongodb.net/"
+    MONGODB_URL: str = "mongodb+srv://adityanikam_db_user:FoPk9uYv7e7GHM5S@aditya.wxjcuea.mongodb.net/"
     DATABASE_NAME: str = "job_recommendation_db"
     
     # Gemini API Configuration
