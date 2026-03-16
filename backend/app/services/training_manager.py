@@ -9,15 +9,10 @@ from collections import deque
 
 logger = logging.getLogger(__name__)
 
-# Persistence Path
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DATA_DIR = BASE_DIR / "backend" / "data"  # Fix path resolution
-if not DATA_DIR.exists():
-    DATA_DIR = BASE_DIR.parent / "backend" / "data"
+DATA_DIR = BASE_DIR / "data"
 
-# Fallback to absolute if relative fails
-if not DATA_DIR.exists():
-    DATA_DIR = Path("/Users/aditya/Downloads/Antigravity/backend/data")
+DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 TRAINING_RUNS_DIR = DATA_DIR / "training_runs"
 TRAINING_RUNS_DIR.mkdir(parents=True, exist_ok=True)
