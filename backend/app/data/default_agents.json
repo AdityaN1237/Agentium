@@ -1,0 +1,65 @@
+[
+    {
+        "id": "resume_screening",
+        "name": "Resume Screener",
+        "description": "Analyzes resumes to rank candidates against specific job requirements using semantic embeddings.",
+        "version": "1.0.0",
+        "type": "resume_screening",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "skill_job_matching",
+        "name": "Skill-Job Matcher",
+        "description": "Matches candidates to relevant jobs using semantic similarity and skill knowledge graphs.",
+        "version": "1.0.0",
+        "type": "skill_job_matching",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "jd_to_skill",
+        "name": "JD Parser & Mapper",
+        "description": "Extracts structured skills and requirements from unstructured job descriptions.",
+        "version": "1.0.0",
+        "type": "jd_to_skill",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "candidate_fit",
+        "name": "Candidate Fit Scorer",
+        "description": "Predicts the long-term success of a candidate based on multiple performance dimensions.",
+        "version": "1.0.0",
+        "type": "candidate_fit",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "skill_gap",
+        "name": "Skill Gap Analyzer",
+        "description": "Identifies missing skills and recommends courses to bridge the gap.",
+        "version": "1.0.0",
+        "type": "skill_gap",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "market_trend",
+        "name": "Market Trend Analyst",
+        "description": "Analyzes salary benchmarks and evolving demand for technical skills.",
+        "version": "1.1.0",
+        "type": "market_trend",
+        "state": "IDLE",
+        "status": "active"
+    },
+    {
+        "id": "rag_qa",
+        "name": "Document Q&A (RAG)",
+        "description": "Answer questions using internal documents via semantic retrieval.",
+        "version": "1.1.0",
+        "type": "rag_qa",
+        "state": "IDLE",
+        "status": "active"
+    }
+]

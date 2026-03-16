@@ -1,0 +1,25 @@
+{
+  "rag_qa": {
+    "agent_id": "rag_qa",
+    "version": 1,
+    "parameters": {
+      "chunk_size": 512,
+      "overlap": 64,
+      "top_k": 3,
+      "retrieval_strategy": "hybrid",
+      "similarity_threshold": 0.3
+    },
+    "updated_at": "2026-01-10 14:49:51.287596"
+  },
+  "resume_screening": {
+    "agent_id": "resume_screening",
+    "version": 1,
+    "parameters": {
+      "top_k": 10,
+      "skill_match_weight": 0.5,
+      "semantic_score_weight": 0.5,
+      "ner_model": "spacy/en_core_web_sm"
+    },
+    "updated_at": "2026-01-10 14:49:51.287663"
+  }
+}

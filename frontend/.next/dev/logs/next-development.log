@@ -1,0 +1,4 @@
+[00:00:01.073] Server  LOG     ✓ Ready in 813ms
+[00:00:03.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.838] Browser WARN    WebSocket connection failed: {"isTrusted":true}

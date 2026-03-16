@@ -1,0 +1,21 @@
+fastapi
+uvicorn[standard]
+tiktoken
+python-multipart
+motor
+pydantic[email] >= 2.0.0
+email-validator
+pydantic-settings
+python-dotenv
+httpx
+requests
+sentence-transformers >= 3.0.0
+flashrank
+rank_bm25
+PyMuPDF
+Pillow
+pytesseract
+python-docx
+markdownify
+pypandoc
+regex
